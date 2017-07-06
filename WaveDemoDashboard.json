@@ -1,63 +1,63 @@
 {
-  "label": "Production Version",
-  "state": {
-    "dataSourceLinks": [],
-    "gridLayouts": [
-      {
-        "name": "Default",
-        "numColumns": 12,
-        "pages": [
-          {
-            "widgets": [
-              {
-                "colspan": 2,
-                "column": 1,
-                "name": "link_1",
-                "row": 2,
-                "rowspan": 1,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              }
-            ]
-          }
+    "label": "Wave Demo Dashboard",
+    "state": {
+        "dataSourceLinks": [],
+        "gridLayouts": [
+            {
+                "name": "Default",
+                "numColumns": 11,
+                "pages": [
+                    {
+                        "widgets": [
+                            {
+                                "colspan": 2,
+                                "column": 1,
+                                "name": "link_1",
+                                "row": 2,
+                                "rowspan": 1,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "normal",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#F2F6FA",
+                    "cellSpacingX": 8,
+                    "cellSpacingY": 8,
+                    "fit": "original",
+                    "gutterColor": "#C5D3E0"
+                },
+                "version": 1
+            }
         ],
-        "rowHeight": "normal",
-        "selectors": [],
-        "style": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "backgroundColor": "#F2F6FA",
-          "cellSpacingX": 8,
-          "cellSpacingY": 8,
-          "fit": "original",
-          "gutterColor": "#C5D3E0"
+        "layouts": [],
+        "steps": {},
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
         },
-        "version": 1
-      }
-    ],
-    "layouts": [],
-    "steps": {},
-    "widgetStyle": {
-      "backgroundColor": "#FFFFFF",
-      "borderColor": "#E6ECF2",
-      "borderEdges": [],
-      "borderRadius": 0,
-      "borderWidth": 1
+        "widgets": {
+            "link_1": {
+                "parameters": {
+                    "destinationType": "lens",
+                    "fontSize": 12,
+                    "includeState": false,
+                    "text": "Development",
+                    "textAlignment": "center",
+                    "textColor": "#091A3E"
+                },
+                "type": "link"
+            }
+        }
     },
-    "widgets": {
-      "link_1": {
-        "parameters": {
-          "destinationType": "lens",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "Development",
-          "textAlignment": "center",
-          "textColor": "#091A3E"
-        },
-        "type": "link"
-      }
-    }
-  },
-  "datasets": []
+    "datasets": []
 }
